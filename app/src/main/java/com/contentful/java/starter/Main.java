@@ -29,6 +29,7 @@ public class Main {
   private static final String CONTENT_TYPE_PRODUCT = "product";
   private static final String CONTENT_TYPE_BRAND = "brand";
   private static final String CONTENT_TYPE_CATEGORY = "category";
+  
 
   private static CDAClient client;
 
