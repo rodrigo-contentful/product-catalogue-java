@@ -20,12 +20,15 @@ import java.util.Collections;
 @EnableAutoConfiguration
 public class Main {
 
-  private static final String SPACE_ID = "wl1z0pal05vy";
-  private static final String ACCESS_TOKEN = "0e3ec801b5af550c8a1257e8623b1c77ac9b3d8fcfc1b2b7494e3cb77878f92a";
+  private static final String SPACE_ID = "jymzmedy7zp5";
+  private static final String ACCESS_TOKEN = "CFPAT-qoU5UUMGO7_AlpqzN34rFxhj4AHkASzUmCWRrfouw-c";
 
-  private static final String CONTENT_TYPE_PRODUCT = "2PqfXUJwE8qSYKuM0U6w8M";
-  private static final String CONTENT_TYPE_BRAND = "sFzTZbSuM8coEwygeUYes";
-  private static final String CONTENT_TYPE_CATEGORY = "6XwpTaSiiI2Ak2Ww0oi6qa";
+  //private static final String CONTENT_TYPE_PRODUCT = "2PqfXUJwE8qSYKuM0U6w8M";
+  // private static final String CONTENT_TYPE_BRAND = "sFzTZbSuM8coEwygeUYes";
+  // private static final String CONTENT_TYPE_CATEGORY = "6XwpTaSiiI2Ak2Ww0oi6qa";
+  private static final String CONTENT_TYPE_PRODUCT = "product";
+  private static final String CONTENT_TYPE_BRAND = "brand";
+  private static final String CONTENT_TYPE_CATEGORY = "category";
 
   private static CDAClient client;
 

@@ -16,7 +16,8 @@ buildscript {
 }
 apply plugin: 'org.springframework.boot'
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '3.0'
-}
+
+
+
+
 
