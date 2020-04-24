@@ -11,14 +11,14 @@ jar {
 }
 
 dependencies {
-    compile("org.springframework.boot:spring-boot-starter-web:1.4.2.RELEASE")
-    compile("com.contentful.java:java-sdk:7.2.0")
+    compile("org.springframework.boot:spring-boot-starter-web:2.2.6.RELEASE")
+    compile("com.contentful.java:java-sdk:10.4.2")
     compile("com.github.mjeanroy:springmvc-mustache:0.5.3")
     compile("com.github.spullara.mustache.java:compiler:0.9.4")
 }
 
 springBoot {
-    mainClass = mainClassName
+    mainClassName = 'com.contentful.java.starter.Main'
 }
 
 build.dependsOn(installDist)
